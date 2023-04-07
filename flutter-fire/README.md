@@ -18,7 +18,10 @@ https://firebase.flutter.dev/docs/overview
 ---
 
 RUN dart pub global activate flutterfire_cli
+  
+  
 
+  
 RUN export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 ADD export PATH="$PATH":"$HOME/.pub-cache/bin" to .zshrc (initialized source for shell)
